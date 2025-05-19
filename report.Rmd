@@ -1,0 +1,184 @@
+---
+title: "Toronto Airbnb Analysis"
+author: "Trivikram Madala"
+date: "2025-05-19"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, warning = FALSE, message = FALSE)
+library(tidyverse)
+library(janitor)
+library(lubridate)
+library(leaflet)
+library(sf)
+library(xgboost)
+library(Matrix)
+library(corrplot)
+```
+
+# Introduction
+
+This report presents a comprehensive analysis of the Airbnb short-term rental (STR) market in Toronto. Using multiple data sources, including listing data, reviews, and city program summaries, we:
+
+- Cleaned and explored the data
+- Modeled price prediction using XGBoost
+- Visualized spatial patterns using GeoJSON
+- Evaluated model performance and feature importance
+- Presented residual maps to identify over/under-valued neighborhoods
+
+---
+
+# Data Loading and Cleaning
+
+```{r load-data}
+listings <- read_csv("listings.csv") %>% clean_names()
+reviews <- read_csv("reviews.csv") %>% clean_names()
+program_summary <- read_csv("Short Term Rental Program Data (1).csv") %>% clean_names()
+registrations <- read_csv("short-term-rental-registrations-data.csv") %>% clean_names()
+neighbourhoods <- read_csv("neighbourhoods.csv") %>% clean_names()
+toronto_sf <- st_read("toronto_neighbourhoods.geojson")
+```
+
+## Clean Listings Data
+
+```{r clean-listings}
+listings2 <- listings %>%
+  filter(!is.na(price)) %>%
+  mutate(price = parse_number(price)) %>%
+  filter(price > 10 & price < 1500)
+
+listings3 <- listings2 %>%
+  select(id, price, neighbourhood_cleansed, latitude, longitude, room_type,
+         property_type, accommodates, bedrooms, bathrooms, beds,
+         number_of_reviews, number_of_reviews_ltm, availability_365,
+         review_scores_rating, review_scores_cleanliness, review_scores_value) %>%
+  drop_na()
+```
+
+---
+
+# Exploratory Data Analysis
+
+## Price Distribution
+
+```{r price-dist}
+ggplot(listings3, aes(x = price)) +
+  geom_histogram(binwidth = 25, fill = "steelblue", color = "white") +
+  scale_x_continuous(labels = scales::dollar) +
+  labs(title = "Distribution of Airbnb Prices", x = "Price", y = "Frequency") +
+  theme_minimal(base_size = 14)
+```
+
+## Correlation Plot
+
+```{r corr-plot}
+numeric_clean <- listings3 %>%
+  select(where(is.numeric)) %>%
+  select(where(~ n_distinct(.) > 1))
+
+corrplot(cor(numeric_clean), method = "color", tl.cex = 0.8, title = "Correlation Plot of Numeric Features")
+```
+
+---
+
+# XGBoost Modeling (Raw Prices)
+
+## Data Preparation
+
+```{r xgb-prep}
+listings_model <- listings3
+X <- model.matrix(price ~ . - price - id, data = listings_model)
+X_sparse <- Matrix(X, sparse = TRUE)
+y <- listings_model$price
+set.seed(123)
+train_idx <- sample(nrow(X_sparse), 0.8 * nrow(X_sparse))
+dtrain <- xgb.DMatrix(data = X_sparse[train_idx, ], label = y[train_idx])
+dtest <- xgb.DMatrix(data = X_sparse[-train_idx, ], label = y[-train_idx])
+```
+
+## Model Training and Evaluation
+
+```{r xgb-train}
+params <- list(objective = "reg:squarederror", eval_metric = "rmse", eta = 0.1, max_depth = 6)
+xgb_model <- xgb.train(params, dtrain, nrounds = 100, watchlist = list(train = dtrain, test = dtest),
+                       early_stopping_rounds = 10, verbose = 0)
+
+preds <- predict(xgb_model, dtest)
+actuals <- y[-train_idx]
+results <- tibble(actual = actuals, predicted = preds)
+rmse <- sqrt(mean((results$actual - results$predicted)^2))
+r2 <- 1 - sum((results$actual - results$predicted)^2) / sum((results$actual - mean(results$actual))^2)
+```
+
+## Scatter Plot
+
+```{r scatter-plot}
+ggplot(results, aes(x = actual, y = predicted)) +
+  geom_point(alpha = 0.3, color = "blue") +
+  geom_abline(slope = 1, intercept = 0, linetype = "dashed", color = "red") +
+  labs(title = "Actual vs Predicted Airbnb Prices", x = "Actual Price", y = "Predicted Price") +
+  theme_minimal()
+```
+
+---
+
+# Feature Importance
+
+```{r importance}
+importance_matrix <- xgb.importance(model = xgb_model)
+xgb.plot.importance(importance_matrix[1:20, ])
+```
+
+---
+
+# Spatial Visualization: Predicted Price Map
+
+```{r map-predicted}
+listings3$predicted_price <- NA
+listings3$predicted_price[-train_idx] <- preds
+map_pred <- listings3 %>%
+  group_by(neighbourhood_cleansed) %>%
+  summarise(pred_price = mean(predicted_price, na.rm = TRUE))
+
+toronto_pred_map <- toronto_sf %>%
+  left_join(map_pred, by = c("neighbourhood" = "neighbourhood_cleansed"))
+
+pal <- colorNumeric("YlGnBu", toronto_pred_map$pred_price, na.color = "#f0f0f0")
+leaflet(toronto_pred_map) %>%
+  addTiles() %>%
+  addPolygons(fillColor = ~pal(pred_price), color = "#444", weight = 1,
+              fillOpacity = 0.7, label = ~paste0(neighbourhood, ": $", round(pred_price))) %>%
+  addLegend(pal = pal, values = ~pred_price, title = "Avg Predicted Price")
+```
+
+---
+
+# Residual Mapping (Actual - Predicted)
+
+```{r residual-map}
+listings3$residual <- listings3$price - listings3$predicted_price
+resid_map <- listings3 %>%
+  group_by(neighbourhood_cleansed) %>%
+  summarise(avg_resid = mean(residual, na.rm = TRUE))
+
+toronto_resid_map <- toronto_sf %>%
+  left_join(resid_map, by = c("neighbourhood" = "neighbourhood_cleansed"))
+
+pal2 <- colorBin("RdBu", domain = toronto_resid_map$avg_resid, bins = 7, reverse = TRUE)
+leaflet(toronto_resid_map) %>%
+  addProviderTiles("CartoDB.Positron") %>%
+  addPolygons(fillColor = ~pal2(avg_resid), color = "white", weight = 1,
+              fillOpacity = 0.7, label = ~paste0(neighbourhood, ": ", round(avg_resid))) %>%
+  addLegend(pal = pal2, values = ~avg_resid, title = "Avg Residual (Actual - Predicted)")
+```
+
+---
+
+# Conclusion
+
+- Our model achieved an RMSE of ~88 and R² of ~0.59.
+- Top predictors include: accommodates, bathrooms, bedrooms.
+- Central neighborhoods tend to be overvalued compared to model predictions.
+
+This project illustrates the potential for using open urban data to guide pricing, policy enforcement, and equity analysis in Toronto’s dynamic rental market.

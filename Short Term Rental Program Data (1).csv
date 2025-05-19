@@ -1,0 +1,635 @@
+_id,Data Name,Data Type,Year,Month Name,Data Count
+1,Registration applications received,Registration and Registration Renewal,2021,August,218
+2,Registration applications received,Registration and Registration Renewal,2021,October,217
+3,Registration applications received,Registration and Registration Renewal,2021,November,267
+4,Registration applications received,Registration and Registration Renewal,2021,December,224
+5,Registration applications received,Registration and Registration Renewal,2022,March,305
+6,Registration applications received,Registration and Registration Renewal,2022,April,438
+7,Registration applications received,Registration and Registration Renewal,2023,June,618
+8,Registration applications received,Registration and Registration Renewal,2023,July,606
+9,Registration applications received,Registration and Registration Renewal,2024,January,488
+10,Registration applications received,Registration and Registration Renewal,2024,September,575
+11,Registration applications received,Registration and Registration Renewal,2020,October,752
+12,Registration applications received,Registration and Registration Renewal,2020,November,572
+13,Registration applications received,Registration and Registration Renewal,2020,December,1205
+14,Registration applications received,Registration and Registration Renewal,2021,January,413
+15,Registration applications received,Registration and Registration Renewal,2021,July,227
+16,Registration applications received,Registration and Registration Renewal,2022,August,557
+17,Registration applications received,Registration and Registration Renewal,2023,February,466
+18,Registration applications received,Registration and Registration Renewal,2023,April,502
+19,Registration applications received,Registration and Registration Renewal,2023,May,605
+20,Registration applications received,Registration and Registration Renewal,2023,September,498
+21,Registration applications received,Registration and Registration Renewal,2024,June,538
+22,Registration applications received,Registration and Registration Renewal,2024,July,606
+23,Registration applications received,Registration and Registration Renewal,2024,October,486
+24,Registration applications received,Registration and Registration Renewal,2024,November,559
+25,Registration applications received,Registration and Registration Renewal,2024,December,532
+26,Registration applications received,Registration and Registration Renewal,2025,March,242
+27,Registration applications received,Registration and Registration Renewal,2020,August,1
+28,Registration applications received,Registration and Registration Renewal,2021,February,143
+29,Registration applications received,Registration and Registration Renewal,2021,April,101
+30,Registration applications received,Registration and Registration Renewal,2021,May,137
+31,Registration applications received,Registration and Registration Renewal,2021,September,218
+32,Registration applications received,Registration and Registration Renewal,2022,June,576
+33,Registration applications received,Registration and Registration Renewal,2022,October,517
+34,Registration applications received,Registration and Registration Renewal,2022,November,601
+35,Registration applications received,Registration and Registration Renewal,2022,December,394
+36,Registration applications received,Registration and Registration Renewal,2023,January,494
+37,Registration applications received,Registration and Registration Renewal,2023,March,555
+38,Registration applications received,Registration and Registration Renewal,2024,February,455
+39,Registration applications received,Registration and Registration Renewal,2024,May,604
+40,Registration applications received,Registration and Registration Renewal,2024,August,568
+41,Registration applications received,Registration and Registration Renewal,2025,April,241
+42,Registration applications received,Registration and Registration Renewal,2021,March,187
+43,Registration applications received,Registration and Registration Renewal,2021,June,171
+44,Registration applications received,Registration and Registration Renewal,2022,January,239
+45,Registration applications received,Registration and Registration Renewal,2022,February,243
+46,Registration applications received,Registration and Registration Renewal,2022,May,478
+47,Registration applications received,Registration and Registration Renewal,2022,July,555
+48,Registration applications received,Registration and Registration Renewal,2022,September,476
+49,Registration applications received,Registration and Registration Renewal,2023,August,603
+50,Registration applications received,Registration and Registration Renewal,2023,October,563
+51,Registration applications received,Registration and Registration Renewal,2023,November,507
+52,Registration applications received,Registration and Registration Renewal,2023,December,405
+53,Registration applications received,Registration and Registration Renewal,2024,March,515
+54,Registration applications received,Registration and Registration Renewal,2024,April,602
+55,Registration applications received,Registration and Registration Renewal,2025,January,208
+56,Registration applications received,Registration and Registration Renewal,2025,February,196
+57,Registration applications received,Registration and Registration Renewal,2025,May,24
+58,Registration applications approved,Registration and Registration Renewal,2025,March,247
+59,Registration applications approved,Registration and Registration Renewal,2020,October,107
+60,Registration applications approved,Registration and Registration Renewal,2024,October,327
+61,Registration applications approved,Registration and Registration Renewal,2023,February,85
+62,Registration applications approved,Registration and Registration Renewal,2023,May,180
+63,Registration applications approved,Registration and Registration Renewal,2023,April,84
+64,Registration applications approved,Registration and Registration Renewal,2024,June,410
+65,Registration applications approved,Registration and Registration Renewal,2024,July,366
+66,Registration applications approved,Registration and Registration Renewal,2021,July,56
+67,Registration applications approved,Registration and Registration Renewal,2021,January,118
+68,Registration applications approved,Registration and Registration Renewal,2024,November,325
+69,Registration applications approved,Registration and Registration Renewal,2020,November,83
+70,Registration applications approved,Registration and Registration Renewal,2023,September,143
+71,Registration applications approved,Registration and Registration Renewal,2024,December,290
+72,Registration applications approved,Registration and Registration Renewal,2020,December,130
+73,Registration applications approved,Registration and Registration Renewal,2022,August,110
+74,Registration applications approved,Registration and Registration Renewal,2024,February,229
+75,Registration applications approved,Registration and Registration Renewal,2022,October,110
+76,Registration applications approved,Registration and Registration Renewal,2023,March,98
+77,Registration applications approved,Registration and Registration Renewal,2021,February,28
+78,Registration applications approved,Registration and Registration Renewal,2025,April,182
+79,Registration applications approved,Registration and Registration Renewal,2022,June,113
+80,Registration applications approved,Registration and Registration Renewal,2021,April,14
+81,Registration applications approved,Registration and Registration Renewal,2024,May,339
+82,Registration applications approved,Registration and Registration Renewal,2021,May,19
+83,Registration applications approved,Registration and Registration Renewal,2021,September,26
+84,Registration applications approved,Registration and Registration Renewal,2023,January,87
+85,Registration applications approved,Registration and Registration Renewal,2022,November,119
+86,Registration applications approved,Registration and Registration Renewal,2024,August,349
+87,Registration applications approved,Registration and Registration Renewal,2022,December,55
+88,Registration applications approved,Registration and Registration Renewal,2022,February,36
+89,Registration applications approved,Registration and Registration Renewal,2025,February,141
+90,Registration applications approved,Registration and Registration Renewal,2024,March,184
+91,Registration applications approved,Registration and Registration Renewal,2023,October,157
+92,Registration applications approved,Registration and Registration Renewal,2021,March,31
+93,Registration applications approved,Registration and Registration Renewal,2025,May,22
+94,Registration applications approved,Registration and Registration Renewal,2021,June,36
+95,Registration applications approved,Registration and Registration Renewal,2022,July,122
+96,Registration applications approved,Registration and Registration Renewal,2024,April,241
+97,Registration applications approved,Registration and Registration Renewal,2025,January,222
+98,Registration applications approved,Registration and Registration Renewal,2022,May,110
+99,Registration applications approved,Registration and Registration Renewal,2022,January,22
+100,Registration applications approved,Registration and Registration Renewal,2023,November,140
+101,Registration applications approved,Registration and Registration Renewal,2022,September,88
+102,Registration applications approved,Registration and Registration Renewal,2023,August,179
+103,Registration applications approved,Registration and Registration Renewal,2023,December,85
+104,Registration applications approved,Registration and Registration Renewal,2022,March,76
+105,Registration applications approved,Registration and Registration Renewal,2021,October,33
+106,Registration applications approved,Registration and Registration Renewal,2023,July,224
+107,Registration applications approved,Registration and Registration Renewal,2023,June,305
+108,Registration applications approved,Registration and Registration Renewal,2022,April,99
+109,Registration applications approved,Registration and Registration Renewal,2021,November,48
+110,Registration applications approved,Registration and Registration Renewal,2020,September,72
+111,Registration applications approved,Registration and Registration Renewal,2024,January,139
+112,Registration applications approved,Registration and Registration Renewal,2024,September,299
+113,Registration applications approved,Registration and Registration Renewal,2021,August,37
+114,Registration applications approved,Registration and Registration Renewal,2021,December,39
+115,Registration revoked,Registration and Registration Renewal,2022,June,17
+116,"Registration applications created in error, cancelled by operator or cancelled for non-payment of renewal",Registration and Registration Renewal,2023,December,175
+117,Registration revoked,Registration and Registration Renewal,2023,April,110
+118,Registration applications denied,Registration and Registration Renewal,2024,December,91
+119,Registration revoked,Registration and Registration Renewal,2025,February,47
+120,"Registration applications created in error, cancelled by operator or cancelled for non-payment of renewal",Registration and Registration Renewal,2024,March,230
+121,Registration revoked,Registration and Registration Renewal,2024,October,186
+122,"Registration applications created in error, cancelled by operator or cancelled for non-payment of renewal",Registration and Registration Renewal,2021,March,22
+123,Registration revoked,Registration and Registration Renewal,2023,March,87
+124,Registration applications denied,Registration and Registration Renewal,2021,September,23
+125,Registration revoked,Registration and Registration Renewal,2021,October,2
+126,Registration applications denied,Registration and Registration Renewal,2021,January,4
+127,"Registration applications created in error, cancelled by operator or cancelled for non-payment of renewal",Registration and Registration Renewal,2023,May,155
+128,Registration applications denied,Registration and Registration Renewal,2025,February,27
+129,"Registration applications created in error, cancelled by operator or cancelled for non-payment of renewal",Registration and Registration Renewal,2023,February,101
+130,Registration renewal applications refused,Registration and Registration Renewal,2023,June,1
+131,Registration revoked,Registration and Registration Renewal,2024,November,147
+132,Registration applications denied,Registration and Registration Renewal,2025,May,1
+133,Registration revoked,Registration and Registration Renewal,2021,August,1
+134,"Registration applications created in error, cancelled by operator or cancelled for non-payment of renewal",Registration and Registration Renewal,2025,April,271
+135,Registration revoked,Registration and Registration Renewal,2024,August,76
+136,"Registration applications created in error, cancelled by operator or cancelled for non-payment of renewal",Registration and Registration Renewal,2021,June,28
+137,"Registration applications created in error, cancelled by operator or cancelled for non-payment of renewal",Registration and Registration Renewal,2023,August,144
+138,Registration renewal applications refused,Registration and Registration Renewal,2023,July,1
+139,Registration renewal applications refused,Registration and Registration Renewal,2022,August,7
+140,"Registration applications created in error, cancelled by operator or cancelled for non-payment of renewal",Registration and Registration Renewal,2022,August,88
+141,"Registration applications created in error, cancelled by operator or cancelled for non-payment of renewal",Registration and Registration Renewal,2021,April,49
+142,Registration revoked,Registration and Registration Renewal,2021,November,1
+143,"Registration applications created in error, cancelled by operator or cancelled for non-payment of renewal",Registration and Registration Renewal,2023,July,157
+144,Registration revoked,Registration and Registration Renewal,2024,December,71
+145,"Registration applications created in error, cancelled by operator or cancelled for non-payment of renewal",Registration and Registration Renewal,2024,June,180
+146,Registration revoked,Registration and Registration Renewal,2022,January,5
+147,Registration revoked,Registration and Registration Renewal,2025,May,14
+148,Registration renewal applications refused,Registration and Registration Renewal,2023,September,1
+149,"Registration applications created in error, cancelled by operator or cancelled for non-payment of renewal",Registration and Registration Renewal,2024,January,245
+150,Registration revoked,Registration and Registration Renewal,2021,December,3
+151,Registration revoked,Registration and Registration Renewal,2022,July,2
+152,"Registration applications created in error, cancelled by operator or cancelled for non-payment of renewal",Registration and Registration Renewal,2022,November,102
+153,Registration renewal applications refused,Registration and Registration Renewal,2023,May,1
+154,Registration revoked,Registration and Registration Renewal,2025,January,79
+155,"Registration applications created in error, cancelled by operator or cancelled for non-payment of renewal",Registration and Registration Renewal,2023,September,270
+156,Registration revoked,Registration and Registration Renewal,2022,September,4
+157,Registration applications denied,Registration and Registration Renewal,2022,June,76
+158,Registration revoked,Registration and Registration Renewal,2023,February,13
+159,Registration revoked,Registration and Registration Renewal,2024,March,76
+160,Registration applications denied,Registration and Registration Renewal,2023,March,28
+161,Registration applications denied,Registration and Registration Renewal,2022,September,17
+162,Registration applications denied,Registration and Registration Renewal,2024,January,75
+163,Registration applications denied,Registration and Registration Renewal,2024,July,232
+164,Registration revoked,Registration and Registration Renewal,2022,April,4
+165,"Registration applications created in error, cancelled by operator or cancelled for non-payment of renewal",Registration and Registration Renewal,2025,March,274
+166,Registration applications denied,Registration and Registration Renewal,2021,July,17
+167,Registration applications denied,Registration and Registration Renewal,2021,December,28
+168,"Registration applications created in error, cancelled by operator or cancelled for non-payment of renewal",Registration and Registration Renewal,2024,May,173
+169,Registration renewal applications refused,Registration and Registration Renewal,2023,April,1
+170,Registration applications denied,Registration and Registration Renewal,2022,February,15
+171,Registration applications denied,Registration and Registration Renewal,2024,October,165
+172,"Registration applications created in error, cancelled by operator or cancelled for non-payment of renewal",Registration and Registration Renewal,2024,February,314
+173,Registration applications denied,Registration and Registration Renewal,2021,October,2
+174,"Registration applications created in error, cancelled by operator or cancelled for non-payment of renewal",Registration and Registration Renewal,2023,June,169
+175,"Registration applications created in error, cancelled by operator or cancelled for non-payment of renewal",Registration and Registration Renewal,2021,August,52
+176,Registration renewal applications refused,Registration and Registration Renewal,2022,January,6
+177,Registration revoked,Registration and Registration Renewal,2023,August,43
+178,"Registration applications created in error, cancelled by operator or cancelled for non-payment of renewal",Registration and Registration Renewal,2022,July,91
+179,Registration renewal applications refused,Registration and Registration Renewal,2024,August,21
+180,Registration applications denied,Registration and Registration Renewal,2021,November,6
+181,Registration applications denied,Registration and Registration Renewal,2024,November,208
+182,"Registration applications created in error, cancelled by operator or cancelled for non-payment of renewal",Registration and Registration Renewal,2024,April,222
+183,Registration applications denied,Registration and Registration Renewal,2022,May,44
+184,Registration revoked,Registration and Registration Renewal,2024,July,286
+185,Registration applications denied,Registration and Registration Renewal,2025,April,20
+186,Registration revoked,Registration and Registration Renewal,2024,January,108
+187,Registration applications denied,Registration and Registration Renewal,2023,August,120
+188,Registration revoked,Registration and Registration Renewal,2023,May,98
+189,Registration revoked,Registration and Registration Renewal,2021,January,1
+190,Registration applications denied,Registration and Registration Renewal,2021,June,16
+191,"Registration applications created in error, cancelled by operator or cancelled for non-payment of renewal",Registration and Registration Renewal,2023,October,131
+192,Registration applications denied,Registration and Registration Renewal,2022,April,15
+193,Registration applications denied,Registration and Registration Renewal,2024,June,309
+194,"Registration applications created in error, cancelled by operator or cancelled for non-payment of renewal",Registration and Registration Renewal,2023,January,195
+195,Registration revoked,Registration and Registration Renewal,2022,December,9
+196,Registration revoked,Registration and Registration Renewal,2022,March,2
+197,"Registration applications created in error, cancelled by operator or cancelled for non-payment of renewal",Registration and Registration Renewal,2021,December,57
+198,Registration revoked,Registration and Registration Renewal,2021,April,8
+199,Registration applications denied,Registration and Registration Renewal,2022,March,4
+200,Registration applications denied,Registration and Registration Renewal,2025,January,32
+201,Registration revoked,Registration and Registration Renewal,2025,March,207
+202,Registration applications denied,Registration and Registration Renewal,2022,July,48
+203,Registration applications denied,Registration and Registration Renewal,2020,December,12
+204,Registration applications denied,Registration and Registration Renewal,2025,March,101
+205,Registration applications denied,Registration and Registration Renewal,2022,January,46
+206,"Registration applications created in error, cancelled by operator or cancelled for non-payment of renewal",Registration and Registration Renewal,2024,November,295
+207,"Registration applications created in error, cancelled by operator or cancelled for non-payment of renewal",Registration and Registration Renewal,2022,December,139
+208,Registration revoked,Registration and Registration Renewal,2023,June,105
+209,Registration revoked,Registration and Registration Renewal,2024,April,213
+210,"Registration applications created in error, cancelled by operator or cancelled for non-payment of renewal",Registration and Registration Renewal,2023,March,217
+211,Registration applications denied,Registration and Registration Renewal,2023,December,102
+212,Registration revoked,Registration and Registration Renewal,2024,February,155
+213,Registration applications denied,Registration and Registration Renewal,2024,September,38
+214,Registration revoked,Registration and Registration Renewal,2023,October,32
+215,Registration renewal applications refused,Registration and Registration Renewal,2022,February,3
+216,Registration applications denied,Registration and Registration Renewal,2021,February,8
+217,"Registration applications created in error, cancelled by operator or cancelled for non-payment of renewal",Registration and Registration Renewal,2022,February,129
+218,"Registration applications created in error, cancelled by operator or cancelled for non-payment of renewal",Registration and Registration Renewal,2025,February,231
+219,Registration renewal applications refused,Registration and Registration Renewal,2022,March,4
+220,"Registration applications created in error, cancelled by operator or cancelled for non-payment of renewal",Registration and Registration Renewal,2025,May,52
+221,Registration renewal applications refused,Registration and Registration Renewal,2024,October,1
+222,Registration renewal applications refused,Registration and Registration Renewal,2024,June,1
+223,"Registration applications created in error, cancelled by operator or cancelled for non-payment of renewal",Registration and Registration Renewal,2022,May,452
+224,Registration applications denied,Registration and Registration Renewal,2023,October,180
+225,Registration applications denied,Registration and Registration Renewal,2024,February,120
+226,Registration renewal applications refused,Registration and Registration Renewal,2023,March,2
+227,"Registration applications created in error, cancelled by operator or cancelled for non-payment of renewal",Registration and Registration Renewal,2022,April,471
+228,Registration renewal applications refused,Registration and Registration Renewal,2021,November,11
+229,Registration applications denied,Registration and Registration Renewal,2021,May,9
+230,"Registration applications created in error, cancelled by operator or cancelled for non-payment of renewal",Registration and Registration Renewal,2024,July,177
+231,"Registration applications created in error, cancelled by operator or cancelled for non-payment of renewal",Registration and Registration Renewal,2021,July,32
+232,Registration applications denied,Registration and Registration Renewal,2024,May,74
+233,"Registration applications created in error, cancelled by operator or cancelled for non-payment of renewal",Registration and Registration Renewal,2022,June,111
+234,Registration applications denied,Registration and Registration Renewal,2023,November,189
+235,Registration renewal applications refused,Registration and Registration Renewal,2021,December,20
+236,Registration revoked,Registration and Registration Renewal,2023,November,280
+237,Registration renewal applications refused,Registration and Registration Renewal,2024,July,6
+238,Registration renewal applications refused,Registration and Registration Renewal,2024,November,2
+239,"Registration applications created in error, cancelled by operator or cancelled for non-payment of renewal",Registration and Registration Renewal,2022,October,137
+240,Registration renewal applications refused,Registration and Registration Renewal,2022,May,14
+241,"Registration applications created in error, cancelled by operator or cancelled for non-payment of renewal",Registration and Registration Renewal,2021,November,97
+242,Registration applications denied,Registration and Registration Renewal,2023,April,42
+243,Registration applications denied,Registration and Registration Renewal,2021,August,17
+244,"Registration applications created in error, cancelled by operator or cancelled for non-payment of renewal",Registration and Registration Renewal,2022,September,110
+245,Registration revoked,Registration and Registration Renewal,2021,May,3
+246,Registration revoked,Registration and Registration Renewal,2023,December,43
+247,"Registration applications created in error, cancelled by operator or cancelled for non-payment of renewal",Registration and Registration Renewal,2021,October,60
+248,Registration revoked,Registration and Registration Renewal,2023,July,123
+249,Registration revoked,Registration and Registration Renewal,2024,September,217
+250,Registration applications denied,Registration and Registration Renewal,2024,August,181
+251,Registration revoked,Registration and Registration Renewal,2020,December,6
+252,Registration revoked,Registration and Registration Renewal,2024,May,114
+253,Registration revoked,Registration and Registration Renewal,2023,January,15
+254,"Registration applications created in error, cancelled by operator or cancelled for non-payment of renewal",Registration and Registration Renewal,2022,March,194
+255,Registration revoked,Registration and Registration Renewal,2022,October,9
+256,Registration revoked,Registration and Registration Renewal,2024,June,103
+257,"Registration applications created in error, cancelled by operator or cancelled for non-payment of renewal",Registration and Registration Renewal,2023,November,176
+258,Registration applications denied,Registration and Registration Renewal,2023,September,11
+259,Registration applications denied,Registration and Registration Renewal,2022,December,46
+260,Registration revoked,Registration and Registration Renewal,2025,April,271
+261,Registration revoked,Registration and Registration Renewal,2021,March,1
+262,Registration revoked,Registration and Registration Renewal,2021,June,2
+263,Registration applications denied,Registration and Registration Renewal,2021,March,138
+264,"Registration applications created in error, cancelled by operator or cancelled for non-payment of renewal",Registration and Registration Renewal,2024,December,251
+265,Registration applications denied,Registration and Registration Renewal,2023,January,20
+266,Registration applications denied,Registration and Registration Renewal,2024,March,162
+267,Registration applications denied,Registration and Registration Renewal,2023,July,73
+268,"Registration applications created in error, cancelled by operator or cancelled for non-payment of renewal",Registration and Registration Renewal,2020,December,11
+269,Registration renewal applications refused,Registration and Registration Renewal,2023,October,8
+270,Registration applications denied,Registration and Registration Renewal,2023,February,127
+271,Registration applications denied,Registration and Registration Renewal,2022,October,21
+272,"Registration applications created in error, cancelled by operator or cancelled for non-payment of renewal",Registration and Registration Renewal,2021,May,46
+273,"Registration applications created in error, cancelled by operator or cancelled for non-payment of renewal",Registration and Registration Renewal,2021,February,15
+274,Registration renewal applications refused,Registration and Registration Renewal,2022,April,16
+275,Registration renewal applications refused,Registration and Registration Renewal,2025,March,1
+276,Registration renewal applications refused,Registration and Registration Renewal,2023,August,1
+277,Registration applications denied,Registration and Registration Renewal,2022,November,18
+278,Registration applications denied,Registration and Registration Renewal,2023,May,19
+279,Registration revoked,Registration and Registration Renewal,2022,November,116
+280,Registration renewal applications refused,Registration and Registration Renewal,2023,November,1
+281,Registration revoked,Registration and Registration Renewal,2022,August,18
+282,"Registration applications created in error, cancelled by operator or cancelled for non-payment of renewal",Registration and Registration Renewal,2023,April,148
+283,"Registration applications created in error, cancelled by operator or cancelled for non-payment of renewal",Registration and Registration Renewal,2024,August,319
+284,Registration applications denied,Registration and Registration Renewal,2025,August,1
+285,"Registration applications created in error, cancelled by operator or cancelled for non-payment of renewal",Registration and Registration Renewal,2021,September,77
+286,"Registration applications created in error, cancelled by operator or cancelled for non-payment of renewal",Registration and Registration Renewal,2024,October,247
+287,Registration applications denied,Registration and Registration Renewal,2021,April,64
+288,"Registration applications created in error, cancelled by operator or cancelled for non-payment of renewal",Registration and Registration Renewal,2024,September,287
+289,Registration renewal applications refused,Registration and Registration Renewal,2024,May,2
+290,"Registration applications created in error, cancelled by operator or cancelled for non-payment of renewal",Registration and Registration Renewal,2020,November,2
+291,Registration revoked,Registration and Registration Renewal,2023,September,39
+292,Registration applications denied,Registration and Registration Renewal,2023,June,83
+293,"Registration applications created in error, cancelled by operator or cancelled for non-payment of renewal",Registration and Registration Renewal,2022,January,71
+294,"Registration applications created in error, cancelled by operator or cancelled for non-payment of renewal",Registration and Registration Renewal,2025,January,220
+295,Registration applications denied,Registration and Registration Renewal,2022,August,75
+296,Registration applications denied,Registration and Registration Renewal,2024,April,25
+297,"Registration applications created in error, cancelled by operator or cancelled for non-payment of renewal",Registration and Registration Renewal,2020,October,1
+298,"Registration applications created in error, cancelled by operator or cancelled for non-payment of renewal",Registration and Registration Renewal,2021,January,17
+299,Registration renewal applications processed,Registration and Registration Renewal,2021,October,202
+300,Registration renewal applications processed,Registration and Registration Renewal,2021,November,247
+301,Registration renewal applications processed,Registration and Registration Renewal,2021,December,365
+302,Registration renewal applications processed,Registration and Registration Renewal,2022,March,127
+303,Registration renewal applications processed,Registration and Registration Renewal,2022,April,65
+304,Registration renewal applications processed,Registration and Registration Renewal,2023,June,284
+305,Registration renewal applications processed,Registration and Registration Renewal,2023,July,333
+306,Registration renewal applications processed,Registration and Registration Renewal,2024,January,418
+307,Registration renewal applications processed,Registration and Registration Renewal,2024,September,430
+308,Registration renewal applications processed,Registration and Registration Renewal,2022,August,94
+309,Registration renewal applications processed,Registration and Registration Renewal,2023,February,148
+310,Registration renewal applications processed,Registration and Registration Renewal,2023,April,218
+311,Registration renewal applications processed,Registration and Registration Renewal,2023,May,210
+312,Registration renewal applications processed,Registration and Registration Renewal,2023,September,367
+313,Registration renewal applications processed,Registration and Registration Renewal,2024,June,524
+314,Registration renewal applications processed,Registration and Registration Renewal,2024,July,493
+315,Registration renewal applications processed,Registration and Registration Renewal,2024,October,463
+316,Registration renewal applications processed,Registration and Registration Renewal,2024,November,392
+317,Registration renewal applications processed,Registration and Registration Renewal,2024,December,323
+318,Registration renewal applications processed,Registration and Registration Renewal,2025,March,326
+319,Registration renewal applications processed,Registration and Registration Renewal,2021,September,76
+320,Registration renewal applications processed,Registration and Registration Renewal,2022,June,98
+321,Registration renewal applications processed,Registration and Registration Renewal,2022,October,266
+322,Registration renewal applications processed,Registration and Registration Renewal,2022,November,302
+323,Registration renewal applications processed,Registration and Registration Renewal,2022,December,335
+324,Registration renewal applications processed,Registration and Registration Renewal,2023,January,394
+325,Registration renewal applications processed,Registration and Registration Renewal,2023,March,203
+326,Registration renewal applications processed,Registration and Registration Renewal,2024,February,240
+327,Registration renewal applications processed,Registration and Registration Renewal,2024,May,395
+328,Registration renewal applications processed,Registration and Registration Renewal,2024,August,366
+329,Registration renewal applications processed,Registration and Registration Renewal,2025,April,363
+330,Registration renewal applications processed,Registration and Registration Renewal,2022,January,450
+331,Registration renewal applications processed,Registration and Registration Renewal,2022,February,99
+332,Registration renewal applications processed,Registration and Registration Renewal,2022,May,61
+333,Registration renewal applications processed,Registration and Registration Renewal,2022,July,100
+334,Registration renewal applications processed,Registration and Registration Renewal,2022,September,220
+335,Registration renewal applications processed,Registration and Registration Renewal,2023,August,276
+336,Registration renewal applications processed,Registration and Registration Renewal,2023,October,361
+337,Registration renewal applications processed,Registration and Registration Renewal,2023,November,361
+338,Registration renewal applications processed,Registration and Registration Renewal,2023,December,308
+339,Registration renewal applications processed,Registration and Registration Renewal,2024,March,319
+340,Registration renewal applications processed,Registration and Registration Renewal,2024,April,298
+341,Registration renewal applications processed,Registration and Registration Renewal,2025,January,434
+342,Registration renewal applications processed,Registration and Registration Renewal,2025,February,312
+343,Registration renewal applications processed,Registration and Registration Renewal,2025,May,74
+344,Number of service requests/complaints received,Enforcement,2022,August,160
+345,Total number of open service requests/complaints,Enforcement,2022,August,0
+346,Total number of closed service requests/complaints,Enforcement,2022,August,160
+347,Number of service requests/complaints received,Enforcement,2024,December,89
+348,Total number of open service requests/complaints,Enforcement,2024,December,3
+349,Total number of closed service requests/complaints,Enforcement,2024,December,86
+350,Number of service requests/complaints received,Enforcement,2022,February,53
+351,Total number of open service requests/complaints,Enforcement,2022,February,0
+352,Total number of closed service requests/complaints,Enforcement,2022,February,53
+353,Number of service requests/complaints received,Enforcement,2025,February,423
+354,Total number of open service requests/complaints,Enforcement,2025,February,21
+355,Total number of closed service requests/complaints,Enforcement,2025,February,401
+356,Number of service requests/complaints received,Enforcement,2021,January,105
+357,Total number of open service requests/complaints,Enforcement,2021,January,0
+358,Total number of closed service requests/complaints,Enforcement,2021,January,105
+359,Number of service requests/complaints received,Enforcement,2024,January,186
+360,Total number of open service requests/complaints,Enforcement,2024,January,1
+361,Total number of closed service requests/complaints,Enforcement,2024,January,185
+362,Number of service requests/complaints received,Enforcement,2023,July,146
+363,Total number of open service requests/complaints,Enforcement,2023,July,0
+364,Total number of closed service requests/complaints,Enforcement,2023,July,146
+365,Number of service requests/complaints received,Enforcement,2023,June,117
+366,Total number of open service requests/complaints,Enforcement,2023,June,0
+367,Total number of closed service requests/complaints,Enforcement,2023,June,117
+368,Number of service requests/complaints received,Enforcement,2025,March,777
+369,Total number of open service requests/complaints,Enforcement,2025,March,161
+370,Total number of closed service requests/complaints,Enforcement,2025,March,611
+371,Number of service requests/complaints received,Enforcement,2024,May,217
+372,Total number of open service requests/complaints,Enforcement,2024,May,0
+373,Total number of closed service requests/complaints,Enforcement,2024,May,215
+374,Number of service requests/complaints received,Enforcement,2021,November,85
+375,Total number of open service requests/complaints,Enforcement,2021,November,2
+376,Total number of closed service requests/complaints,Enforcement,2021,November,70
+377,Number of service requests/complaints received,Enforcement,2023,October,118
+378,Total number of open service requests/complaints,Enforcement,2023,October,0
+379,Total number of closed service requests/complaints,Enforcement,2023,October,116
+380,Number of service requests/complaints received,Enforcement,2023,April,98
+381,Total number of open service requests/complaints,Enforcement,2023,April,0
+382,Total number of closed service requests/complaints,Enforcement,2023,April,98
+383,Number of service requests/complaints received,Enforcement,2021,August,78
+384,Total number of open service requests/complaints,Enforcement,2021,August,1
+385,Total number of closed service requests/complaints,Enforcement,2021,August,77
+386,Number of service requests/complaints received,Enforcement,2021,December,51
+387,Total number of open service requests/complaints,Enforcement,2021,December,0
+388,Total number of closed service requests/complaints,Enforcement,2021,December,50
+389,Number of service requests/complaints received,Enforcement,2023,February,85
+390,Total number of open service requests/complaints,Enforcement,2023,February,0
+391,Total number of closed service requests/complaints,Enforcement,2023,February,85
+392,Number of service requests/complaints received,Enforcement,2023,January,130
+393,Total number of open service requests/complaints,Enforcement,2023,January,0
+394,Total number of closed service requests/complaints,Enforcement,2023,January,130
+395,Number of service requests/complaints received,Enforcement,2022,July,143
+396,Total number of open service requests/complaints,Enforcement,2022,July,0
+397,Total number of closed service requests/complaints,Enforcement,2022,July,143
+398,Number of service requests/complaints received,Enforcement,2022,June,152
+399,Total number of open service requests/complaints,Enforcement,2022,June,0
+400,Total number of closed service requests/complaints,Enforcement,2022,June,149
+401,Number of service requests/complaints received,Enforcement,2022,March,84
+402,Total number of open service requests/complaints,Enforcement,2022,March,1
+403,Total number of closed service requests/complaints,Enforcement,2022,March,82
+404,Number of service requests/complaints received,Enforcement,2021,May,94
+405,Total number of open service requests/complaints,Enforcement,2021,May,0
+406,Total number of closed service requests/complaints,Enforcement,2021,May,93
+407,Number of service requests/complaints received,Enforcement,2022,November,127
+408,Total number of open service requests/complaints,Enforcement,2022,November,0
+409,Total number of closed service requests/complaints,Enforcement,2022,November,126
+410,Number of service requests/complaints received,Enforcement,2022,October,100
+411,Total number of open service requests/complaints,Enforcement,2022,October,0
+412,Total number of closed service requests/complaints,Enforcement,2022,October,99
+413,Number of service requests/complaints received,Enforcement,2022,September,122
+414,Total number of open service requests/complaints,Enforcement,2022,September,0
+415,Total number of closed service requests/complaints,Enforcement,2022,September,121
+416,Number of service requests/complaints received,Enforcement,2023,September,102
+417,Total number of open service requests/complaints,Enforcement,2023,September,0
+418,Total number of closed service requests/complaints,Enforcement,2023,September,102
+419,Number of service requests/complaints received,Enforcement,2021,April,57
+420,Total number of open service requests/complaints,Enforcement,2021,April,0
+421,Total number of closed service requests/complaints,Enforcement,2021,April,57
+422,Number of service requests/complaints received,Enforcement,2024,April,119
+423,Total number of open service requests/complaints,Enforcement,2024,April,0
+424,Total number of closed service requests/complaints,Enforcement,2024,April,119
+425,Number of service requests/complaints received,Enforcement,2022,December,76
+426,Total number of open service requests/complaints,Enforcement,2022,December,0
+427,Total number of closed service requests/complaints,Enforcement,2022,December,76
+428,Number of service requests/complaints received,Enforcement,2021,July,52
+429,Total number of open service requests/complaints,Enforcement,2021,July,0
+430,Total number of closed service requests/complaints,Enforcement,2021,July,51
+431,Number of service requests/complaints received,Enforcement,2024,July,188
+432,Total number of open service requests/complaints,Enforcement,2024,July,2
+433,Total number of closed service requests/complaints,Enforcement,2024,July,186
+434,Number of service requests/complaints received,Enforcement,2023,March,117
+435,Total number of open service requests/complaints,Enforcement,2023,March,0
+436,Total number of closed service requests/complaints,Enforcement,2023,March,117
+437,Number of service requests/complaints received,Enforcement,2022,May,113
+438,Total number of open service requests/complaints,Enforcement,2022,May,0
+439,Total number of closed service requests/complaints,Enforcement,2022,May,113
+440,Number of service requests/complaints received,Enforcement,2025,May,174
+441,Total number of open service requests/complaints,Enforcement,2025,May,159
+442,Total number of closed service requests/complaints,Enforcement,2025,May,15
+443,Number of service requests/complaints received,Enforcement,2023,November,67
+444,Total number of open service requests/complaints,Enforcement,2023,November,0
+445,Total number of closed service requests/complaints,Enforcement,2023,November,66
+446,Number of service requests/complaints received,Enforcement,2021,October,150
+447,Total number of open service requests/complaints,Enforcement,2021,October,1
+448,Total number of closed service requests/complaints,Enforcement,2021,October,147
+449,Number of service requests/complaints received,Enforcement,2024,October,157
+450,Total number of open service requests/complaints,Enforcement,2024,October,2
+451,Total number of closed service requests/complaints,Enforcement,2024,October,149
+452,Number of service requests/complaints received,Enforcement,2021,September,78
+453,Total number of open service requests/complaints,Enforcement,2021,September,2
+454,Total number of closed service requests/complaints,Enforcement,2021,September,74
+455,Number of service requests/complaints received,Enforcement,2022,April,75
+456,Total number of open service requests/complaints,Enforcement,2022,April,0
+457,Total number of closed service requests/complaints,Enforcement,2022,April,75
+458,Number of service requests/complaints received,Enforcement,2025,April,536
+459,Total number of open service requests/complaints,Enforcement,2025,April,305
+460,Total number of closed service requests/complaints,Enforcement,2025,April,225
+461,Number of service requests/complaints received,Enforcement,2023,August,160
+462,Total number of open service requests/complaints,Enforcement,2023,August,1
+463,Total number of closed service requests/complaints,Enforcement,2023,August,158
+464,Number of service requests/complaints received,Enforcement,2024,August,169
+465,Total number of open service requests/complaints,Enforcement,2024,August,0
+466,Total number of closed service requests/complaints,Enforcement,2024,August,169
+467,Number of service requests/complaints received,Enforcement,2023,December,123
+468,Total number of open service requests/complaints,Enforcement,2023,December,0
+469,Total number of closed service requests/complaints,Enforcement,2023,December,123
+470,Number of service requests/complaints received,Enforcement,2021,February,102
+471,Total number of open service requests/complaints,Enforcement,2021,February,1
+472,Total number of closed service requests/complaints,Enforcement,2021,February,101
+473,Number of service requests/complaints received,Enforcement,2024,February,163
+474,Total number of open service requests/complaints,Enforcement,2024,February,3
+475,Total number of closed service requests/complaints,Enforcement,2024,February,159
+476,Registration applications received,Registration and Registration Renewal,2020,September,367
+477,Total number of open service requests/complaints,Enforcement,2022,January,0
+478,Total number of closed service requests/complaints,Enforcement,2022,January,59
+479,Number of service requests/complaints received,Enforcement,2025,January,263
+480,Total number of open service requests/complaints,Enforcement,2025,January,9
+481,Total number of closed service requests/complaints,Enforcement,2025,January,254
+482,Number of service requests/complaints received,Enforcement,2021,June,52
+483,Total number of open service requests/complaints,Enforcement,2021,June,0
+484,Total number of closed service requests/complaints,Enforcement,2021,June,52
+485,Number of service requests/complaints received,Enforcement,2024,June,285
+486,Total number of open service requests/complaints,Enforcement,2024,June,0
+487,Total number of closed service requests/complaints,Enforcement,2024,June,284
+488,Number of service requests/complaints received,Enforcement,2021,March,84
+489,Total number of open service requests/complaints,Enforcement,2021,March,1
+490,Total number of closed service requests/complaints,Enforcement,2021,March,83
+491,Number of service requests/complaints received,Enforcement,2024,March,126
+492,Total number of open service requests/complaints,Enforcement,2024,March,6
+493,Total number of closed service requests/complaints,Enforcement,2024,March,120
+494,Number of service requests/complaints received,Enforcement,2023,May,118
+495,Total number of open service requests/complaints,Enforcement,2023,May,0
+496,Total number of closed service requests/complaints,Enforcement,2023,May,118
+497,Number of service requests/complaints received,Enforcement,2024,November,146
+498,Total number of open service requests/complaints,Enforcement,2024,November,2
+499,Total number of closed service requests/complaints,Enforcement,2024,November,143
+500,Number of service requests/complaints received,Enforcement,2024,September,162
+501,Total number of open service requests/complaints,Enforcement,2024,September,2
+502,Total number of closed service requests/complaints,Enforcement,2024,September,160
+503,Number of charges submitted to the courts,Enforcement,2021,August,15
+504,Number of charges resolved by the courts,Enforcement,2021,August,15
+505,Number of charges submitted to the courts,Enforcement,2021,October,4
+506,Number of charges resolved by the courts,Enforcement,2021,October,4
+507,Number of charges submitted to the courts,Enforcement,2021,November,14
+508,Number of charges resolved by the courts,Enforcement,2021,November,14
+509,Number of charges submitted to the courts,Enforcement,2021,December,5
+510,Number of charges resolved by the courts,Enforcement,2021,December,5
+511,Number of charges submitted to the courts,Enforcement,2022,March,7
+512,Number of charges resolved by the courts,Enforcement,2022,March,7
+513,Number of charges submitted to the courts,Enforcement,2022,April,2
+514,Number of charges resolved by the courts,Enforcement,2022,April,2
+515,Number of charges submitted to the courts,Enforcement,2023,July,1
+516,Number of charges resolved by the courts,Enforcement,2023,July,1
+517,Number of charges submitted to the courts,Enforcement,2024,January,2
+518,Number of charges resolved by the courts,Enforcement,2024,January,2
+519,Number of charges submitted to the courts,Enforcement,2024,September,1
+520,Number of charges resolved by the courts,Enforcement,2024,September,1
+521,Number of charges submitted to the courts,Enforcement,2021,March,5
+522,Number of charges resolved by the courts,Enforcement,2021,March,5
+523,Number of charges submitted to the courts,Enforcement,2021,June,12
+524,Number of charges resolved by the courts,Enforcement,2021,June,12
+525,Number of charges submitted to the courts,Enforcement,2022,January,1
+526,Number of charges resolved by the courts,Enforcement,2022,January,1
+527,Number of charges submitted to the courts,Enforcement,2022,February,2
+528,Number of charges resolved by the courts,Enforcement,2022,February,2
+529,Number of charges submitted to the courts,Enforcement,2022,July,5
+530,Number of charges resolved by the courts,Enforcement,2022,July,5
+531,Number of charges submitted to the courts,Enforcement,2023,August,3
+532,Number of charges resolved by the courts,Enforcement,2023,August,3
+533,Number of charges submitted to the courts,Enforcement,2023,October,5
+534,Number of charges resolved by the courts,Enforcement,2023,October,1
+535,Number of charges submitted to the courts,Enforcement,2023,December,6
+536,Number of charges resolved by the courts,Enforcement,2023,December,3
+537,Number of charges submitted to the courts,Enforcement,2021,February,2
+538,Number of charges resolved by the courts,Enforcement,2021,February,2
+539,Number of charges submitted to the courts,Enforcement,2021,April,7
+540,Number of charges resolved by the courts,Enforcement,2021,April,7
+541,Number of charges submitted to the courts,Enforcement,2021,May,8
+542,Number of charges resolved by the courts,Enforcement,2021,May,8
+543,Number of charges submitted to the courts,Enforcement,2021,September,13
+544,Number of charges resolved by the courts,Enforcement,2021,September,13
+545,Number of charges submitted to the courts,Enforcement,2022,June,1
+546,Number of charges resolved by the courts,Enforcement,2022,June,1
+547,Number of charges submitted to the courts,Enforcement,2022,October,3
+548,Number of charges resolved by the courts,Enforcement,2022,October,3
+549,Number of charges submitted to the courts,Enforcement,2023,March,6
+550,Number of charges resolved by the courts,Enforcement,2023,March,6
+551,Number of charges submitted to the courts,Enforcement,2024,May,2
+552,Number of charges resolved by the courts,Enforcement,2024,May,2
+553,Number of charges submitted to the courts,Enforcement,2024,August,1
+554,Number of charges resolved by the courts,Enforcement,2024,August,1
+555,Number of service requests/complaints received,Enforcement,2022,January,59
+556,Number of charges resolved by the courts,Enforcement,2021,January,16
+557,Number of charges submitted to the courts,Enforcement,2021,July,9
+558,Number of charges resolved by the courts,Enforcement,2021,July,9
+559,Number of charges submitted to the courts,Enforcement,2023,April,9
+560,Number of charges resolved by the courts,Enforcement,2023,April,9
+561,Number of charges submitted to the courts,Enforcement,2023,May,5
+562,Number of charges resolved by the courts,Enforcement,2023,May,3
+563,Number of charges submitted to the courts,Enforcement,2023,September,14
+564,Number of charges resolved by the courts,Enforcement,2023,September,7
+565,Number of charges submitted to the courts,Enforcement,2024,July,1
+566,Number of charges resolved by the courts,Enforcement,2024,July,0
+567,Number of charges submitted to the courts,Enforcement,2024,October,7
+568,Number of charges resolved by the courts,Enforcement,2024,October,6
+569,Registration and registration renewal applications under review,Registration and Registration Renewal,2020,January,0
+570,Registration and registration renewal applications under review,Registration and Registration Renewal,2020,February,0
+571,Registration and registration renewal applications under review,Registration and Registration Renewal,2020,March,0
+572,Registration and registration renewal applications under review,Registration and Registration Renewal,2020,April,0
+573,Registration and registration renewal applications under review,Registration and Registration Renewal,2020,May,0
+574,Registration and registration renewal applications under review,Registration and Registration Renewal,2020,June,0
+575,Registration and registration renewal applications under review,Registration and Registration Renewal,2020,July,0
+576,Registration and registration renewal applications under review,Registration and Registration Renewal,2020,August,0
+577,Registration and registration renewal applications under review,Registration and Registration Renewal,2020,September,1
+578,Registration and registration renewal applications under review,Registration and Registration Renewal,2020,October,3
+579,Registration and registration renewal applications under review,Registration and Registration Renewal,2020,November,3
+580,Registration and registration renewal applications under review,Registration and Registration Renewal,2020,December,5
+581,Registration and registration renewal applications under review,Registration and Registration Renewal,2021,January,6
+582,Registration and registration renewal applications under review,Registration and Registration Renewal,2021,February,7
+583,Registration and registration renewal applications under review,Registration and Registration Renewal,2021,March,7
+584,Registration and registration renewal applications under review,Registration and Registration Renewal,2021,April,7
+585,Registration and registration renewal applications under review,Registration and Registration Renewal,2021,May,8
+586,Registration and registration renewal applications under review,Registration and Registration Renewal,2021,June,8
+587,Registration and registration renewal applications under review,Registration and Registration Renewal,2021,July,10
+588,Registration and registration renewal applications under review,Registration and Registration Renewal,2021,August,11
+589,Registration and registration renewal applications under review,Registration and Registration Renewal,2021,September,12
+590,Registration and registration renewal applications under review,Registration and Registration Renewal,2021,October,13
+591,Registration and registration renewal applications under review,Registration and Registration Renewal,2021,November,14
+592,Registration and registration renewal applications under review,Registration and Registration Renewal,2021,December,14
+593,Registration and registration renewal applications under review,Registration and Registration Renewal,2022,January,16
+594,Registration and registration renewal applications under review,Registration and Registration Renewal,2022,February,18
+595,Registration and registration renewal applications under review,Registration and Registration Renewal,2022,March,22
+596,Registration and registration renewal applications under review,Registration and Registration Renewal,2022,April,27
+597,Registration and registration renewal applications under review,Registration and Registration Renewal,2022,May,28
+598,Registration and registration renewal applications under review,Registration and Registration Renewal,2022,June,34
+599,Registration and registration renewal applications under review,Registration and Registration Renewal,2022,July,37
+600,Registration and registration renewal applications under review,Registration and Registration Renewal,2022,August,42
+601,Registration and registration renewal applications under review,Registration and Registration Renewal,2022,September,47
+602,Registration and registration renewal applications under review,Registration and Registration Renewal,2022,October,52
+603,Registration and registration renewal applications under review,Registration and Registration Renewal,2022,November,57
+604,Registration and registration renewal applications under review,Registration and Registration Renewal,2022,December,62
+605,Registration and registration renewal applications under review,Registration and Registration Renewal,2023,January,66
+606,Registration and registration renewal applications under review,Registration and Registration Renewal,2023,February,75
+607,Registration and registration renewal applications under review,Registration and Registration Renewal,2023,March,94
+608,Registration and registration renewal applications under review,Registration and Registration Renewal,2023,April,102
+609,Registration and registration renewal applications under review,Registration and Registration Renewal,2023,May,107
+610,Registration and registration renewal applications under review,Registration and Registration Renewal,2023,June,113
+611,Registration and registration renewal applications under review,Registration and Registration Renewal,2023,July,119
+612,Registration and registration renewal applications under review,Registration and Registration Renewal,2023,August,126
+613,Registration and registration renewal applications under review,Registration and Registration Renewal,2023,September,135
+614,Registration and registration renewal applications under review,Registration and Registration Renewal,2023,October,143
+615,Registration and registration renewal applications under review,Registration and Registration Renewal,2023,November,153
+616,Registration and registration renewal applications under review,Registration and Registration Renewal,2023,December,158
+617,Registration and registration renewal applications under review,Registration and Registration Renewal,2024,January,161
+618,Registration and registration renewal applications under review,Registration and Registration Renewal,2024,February,181
+619,Registration and registration renewal applications under review,Registration and Registration Renewal,2024,March,216
+620,Registration and registration renewal applications under review,Registration and Registration Renewal,2024,April,229
+621,Registration and registration renewal applications under review,Registration and Registration Renewal,2024,May,260
+622,Registration and registration renewal applications under review,Registration and Registration Renewal,2024,June,272
+623,Registration and registration renewal applications under review,Registration and Registration Renewal,2024,July,288
+624,Registration and registration renewal applications under review,Registration and Registration Renewal,2024,August,319
+625,Registration and registration renewal applications under review,Registration and Registration Renewal,2024,September,339
+626,Registration and registration renewal applications under review,Registration and Registration Renewal,2024,October,357
+627,Registration and registration renewal applications under review,Registration and Registration Renewal,2024,November,377
+628,Registration and registration renewal applications under review,Registration and Registration Renewal,2024,December,412
+629,Registration and registration renewal applications under review,Registration and Registration Renewal,2025,January,438
+630,Registration and registration renewal applications under review,Registration and Registration Renewal,2025,February,462
+631,Registration and registration renewal applications under review,Registration and Registration Renewal,2025,March,513
+632,Registration and registration renewal applications under review,Registration and Registration Renewal,2025,April,598
+633,Registration and registration renewal applications under review,Registration and Registration Renewal,2025,May,618
+634,Number of charges submitted to the courts,Enforcement,2021,January,16
